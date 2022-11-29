@@ -63,17 +63,8 @@ color:#71BBAA;
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="hell0" color="red"></tw-tag><tw-passagedata pid="1" name="Landing Page" tags="" position="825,350" size="100,100">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, height=device-height, initial-scale=1&quot;&gt;
 &lt;style&gt;
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
 
 p {
   line-height: 1.4;
@@ -106,47 +97,26 @@ a:active {
   min-height: 100%;
 }
 
-.content {
-  position: center;
-  bottom: 200px;
-  background: rgba(0, 0, 0, 0);
-  color: #f6f6f6;
-  width: 100%;
-  padding: 20px;
+.Absolute-Center {
+  position: fixed;
+  top: 0px; left: 0; bottom: 0; right: 0;
 }
 
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #f6f6f6;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
 &lt;/style&gt;
 &lt;/head&gt;
+
 &lt;body&gt;
 
 &lt;video autoplay muted loop id=&quot;myVideo&quot;&gt;
   &lt;source src=&quot;https://va.media.tumblr.com/tumblr_rm3356hcOv1qa52t4_720.mp4&quot; type=&quot;video/mp4&quot;&gt;
-  Your browser does not support HTML5 video.
 &lt;/video&gt;
 
-&lt;div class=&quot;content&quot;&gt;
- &lt;a href=&quot;https://www.google.com/&quot;&gt;&lt;h1&gt;&lt;center&gt;enter&lt;/center&gt;&lt;/h1&gt;&lt;/a&gt;
-  &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&quot;Absolute-Center&quot;&gt;
+ &lt;a href=&quot;https://www.google.com/&quot;&gt;&lt;center&gt;&lt;h1&gt;enter&lt;/center&gt;&lt;/h1&gt;&lt;/a&gt;
+ &lt;/div&gt;
 
 &lt;script&gt;
 var video = document.getElementById(&quot;myVideo&quot;);
-var btn = document.getElementById(&quot;myBtn&quot;);
-
 &lt;/script&gt;
 
 &lt;/body&gt;
